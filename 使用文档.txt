@@ -1,0 +1,12 @@
+代码解释：
+KnnCharacterRecognition用于使用Knn字符分割并预测（可操作文件）
+函数trainAndSaveKNNModel用于训练并保存模型（可操作文件）
+函数featureExtractor用于特征提取
+函数splitAndDisplayBoundingBoxes用于字符框获取
+
+
+
+任务与目标：将图像格式的文档（如扫描的纸质文件、图片中的文字等）转换为数字文本格式。保证转换过程中的文本保真度，确保信息的准确性和完整性。
+OCR处理不仅提高了文档的可访问性和可用性，还大大提升了信息检索的效率和准确性。
+特征提取采用hog
+数据预处理详看注释
